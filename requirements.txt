@@ -1,8 +1,7 @@
-
 torch
 diffusers
 transformers
 accelerate
 safetensors
-streamlit
+gradio
 huggingface_hub
