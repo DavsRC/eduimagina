@@ -92,7 +92,7 @@ demo = gr.Interface(
     ),
 )
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     # En local, esta línea lanza la app de Gradio.
     # En Hugging Face Spaces, la plataforma se encarga de llamar a demo.launch().
-    demo.launch()
+    demo.launch()
