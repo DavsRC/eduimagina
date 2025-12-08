@@ -42,17 +42,20 @@ Estructura sugerida del proyecto:
 
 ```text
 .
-├── app.py                                   # Aplicación principal de Streamlit
+├── app.py                                   # Aplicación principal en Streamlit (uso local)
+├── app_gradio.py                            # Versión Gradio para despliegue en Hugging Face Spaces
 ├── requirements.txt                         # Dependencias del proyecto
-├── README.md                                # Este archivo
+├── README.md                                # Descripción general del proyecto
+├── MANUAL_INSTALACION_Y_USO.md              # Manual de instalación y guía de usuario
+├── .gitignore                               # Archivos y carpetas excluidos de Git
 ├── notebooks/
-│   └── EA3_Generación_de_contenido_con_IA_generativa.ipynb   # Notebook con experimentación
-└── assets/
-    ├── expA_pndm_heart.png                  # Ejemplo Experimento A (PNDM)
-    ├── expA_euler_heart.png                 # Ejemplo Experimento A (Euler)
-    ├── expB_robot_15steps.png               # Ejemplo Experimento B (15 pasos)
-    ├── expB_robot_50steps.png               # Ejemplo Experimento B (50 pasos)
-    ├── expC_watercycle_guidance_5.0.png     # Ejemplo Experimento C (guidance 5.0)
-    ├── expC_watercycle_guidance_7.5.png     # Ejemplo Experimento C (guidance 7.5)
-    └── expC_watercycle_guidance_10.0.png    # Ejemplo Experimento C (guidance 10.0)
+│   └── EA3_Generación_de_contenido_con_IA_generativa.ipynb   # Notebook con la experimentación
+└── Assets/
+    ├── expA_pndm_heart.png                  # Ejemplo Experimento A (scheduler PNDM)
+    ├── expA_euler_heart.png                 # Ejemplo Experimento A (scheduler Euler)
+    ├── expB_robot_15steps.png               # Ejemplo Experimento B (15 pasos de inferencia)
+    ├── expB_robot_50steps.png               # Ejemplo Experimento B (50 pasos de inferencia)
+    ├── expC_watercycle_guidance_5.0.png     # Ejemplo Experimento C (guidance scale = 5.0)
+    ├── expC_watercycle_guidance_7.5.png     # Ejemplo Experimento C (guidance scale = 7.5)
+    └── expC_watercycle_guidance_10.0.png    # Ejemplo Experimento C (guidance scale = 10.0)
 ```
